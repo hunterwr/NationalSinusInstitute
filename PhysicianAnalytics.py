@@ -8,3 +8,6 @@ def get_data(name_of_csv):
 
 df = get_data('Pys_CO_AZ_TX_NM')
 
+st.write("## Our dataset:")
+st.write(df)
+
